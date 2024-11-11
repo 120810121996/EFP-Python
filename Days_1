@@ -1,0 +1,9 @@
+def addup(liste,a):
+    for i in range(len(liste)):
+        for j in range(i+1,len(liste)):
+            if (liste[i]+liste[j])==a:
+                return (i,j)
+
+b=[3,7,9,0,6,1]
+t=4
+addup(b,t)
